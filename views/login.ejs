@@ -1,0 +1,23 @@
+<%- include("header")-%>
+<div class="container">
+  <h1>Welcome back</h1>
+  <p style="color: red;"><%=title%></p>
+  <form action="/login" method="post">
+    <input
+      class="input"
+      type="text"
+      placeholder="Enter your name"
+      name="username"
+      required
+    />
+    <input
+      class="input"
+      type="password"
+      placeholder="Enter your password"
+      name="password"
+      required
+    />
+    <button class="btn" type="submit">Sign in</button>
+  </form>
+</div>
+<%- include("footer")-%>

@@ -1,0 +1,185 @@
+body {
+  background: rgb(0, 66, 92);
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-family: sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* home page styling */
+/* form container */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  /* margin-top: 10rem; */
+  width: 100%;
+  height: 100%;
+}
+.links .btn {
+  width: 5rem;
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
+.links .btn:active {
+  color: rgb(86, 134, 153);
+}
+.container h1 {
+  color: rgb(115, 197, 230);
+  font-size: 1.8rem;
+  font-stretch: extra-expanded;
+}
+.container h1 span {
+  color: rgb(86, 134, 153);
+  text-transform: uppercase;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 20rem;
+}
+form .input {
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.5rem;
+  background: rgb(115, 197, 230);
+  outline: none;
+}
+
+form .input:focus {
+  outline: none;
+}
+/* button */
+form .btn {
+  background: rgb(115, 197, 230);
+}
+form .btn:hover {
+  background: rgb(53, 143, 179);
+}
+form .btn:active {
+  background: rgb(114, 202, 236);
+}
+.btn {
+  width: 20rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(209, 222, 235);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #fff;
+}
+
+footer h3 {
+  margin-bottom: 0.1rem;
+}
+footer h3 span {
+  color: rgb(115, 197, 230);
+}
+/* user secrets page */
+.home {
+  margin: 5rem 5rem;
+}
+.home .head {
+  display: flex;
+  justify-content: space-between;
+}
+.home .head h1 {
+  color: rgb(64, 152, 187);
+  font-size: 1.1rem;
+  font-size: 1.8rem;
+}
+.nav {
+  display: flex;
+  margin-right: 4rem;
+  align-items: center;
+}
+.nav a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 1rem;
+  background: rgb(64, 152, 187);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.secrets {
+  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.secrets .post {
+  text-align: center;
+  padding: 1.5rem 3rem;
+  border-radius: 0.4rem;
+  border: 1px solid aliceblue;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.secrets .post:hover{
+  background: #fff;
+}
+/* new secret page  */
+
+.new {
+  width: 40%;
+  margin: 2rem 4rem;
+}
+.new h1 {
+  color: rgb(64, 152, 187);
+  font-size: 1.4rem;
+}
+.new form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form input {
+  padding: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.new form textarea {
+  padding: 0.5rem 0.2rem;
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+  background: rgb(115, 197, 230);
+  outline: none;
+}
+textarea::placeholder {
+  color: #fff;
+}
+.new button {
+  display: block;
+  width: 7rem;
+  background: rgb(70, 128, 151);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
